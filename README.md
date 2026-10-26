@@ -4,6 +4,13 @@
 
 MetaBench is a benchmark for PubMed title-and-abstract screening in meta-analysis study selection. It evaluates a two-stage workflow: candidate reranking followed by Top-N screening under PICOS eligibility criteria.
 
+## Paper
+
+**MetaBench: Benchmarking Two-Stage Reranking and Top-N Screening for Meta-Analyses**  
+Yining Huang, Keke Tang, and Meilian Chen. **EMNLP 2026**.
+
+[ACL Anthology](https://aclanthology.org/2026.emnlp-main.1179/) · [Paper PDF](https://aclanthology.org/2026.emnlp-main.1179.pdf)
+
 ## Release Status
 
 The dataset and code are currently undergoing final review and verification.
@@ -27,4 +34,29 @@ MetaBench 面向元分析中的 PubMed 文献标题与摘要筛选，评估候�
 - **数据集：** 发布至 Hugging Face Datasets，具体链接将在发布时补充。
 
 发布后，本 README 将补充下载链接和使用说明。
+
+## Citation
+
+If you use MetaBench in your research, please cite our paper:
+
+```bibtex
+@inproceedings{huang-etal-2026-metabench,
+    title = "{M}eta{B}ench: Benchmarking Two-Stage Reranking and Top-N Screening for Meta-Analyses",
+    author = "Huang, Yining  and
+      Tang, Keke  and
+      Chen, Meilian",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.1179/",
+    pages = "27010--27050",
+    ISBN = "979-8-89176-459-0"
+}
+```
 
